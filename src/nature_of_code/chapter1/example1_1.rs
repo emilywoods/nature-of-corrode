@@ -2,9 +2,9 @@
 //
 // Example 1.1: Bouncing ball with no vectors
 //
-// With help from Nannou example code [2]
+// With reference to Nannou example code [2]
 //
-// [1] https://natureofcode.com/
+// [1] https://natureofcode.com/book/
 // [2] https://github.com/nannou-org/nannou/blob/master/examples/nature_of_code/chp_01_vectors/1_1_bouncingball_novectors.rs
 
 use nannou::prelude::*;

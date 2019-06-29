@@ -2,7 +2,7 @@
 //
 // Example 1.2: Bouncing ball with PVectors
 //
-// With help from Nannou example code [2]
+// With reference to Nannou example code [2]
 //
 // [1] https://natureofcode.com/
 // [2] https://github.com/nannou-org/nannou/blob/master/examples/nature_of_code/chp_01_vectors/1_2_bouncingball_vectors.rs
