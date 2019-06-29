@@ -2,7 +2,7 @@
 name = "nature-of-corrode"
 version = "0.1.0"
 authors = ["Emily Woods <hello@emilywoods.me>"]
-edition = "2018"
+edition = "2019"
 
 [dependencies]
 nannou = "0.9"
