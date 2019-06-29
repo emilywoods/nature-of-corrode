@@ -10,7 +10,7 @@
 
 use nannou::prelude::*;
 
-pub fn test() {
+pub fn execute() {
     nannou::app(model).update(update).run();
 }
 
