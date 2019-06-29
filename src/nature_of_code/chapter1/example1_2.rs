@@ -2,11 +2,10 @@
 //
 // Example 1.2: Bouncing ball with PVectors
 //
-// Verified using Nannou example code [2]
+// With help from Nannou example code [2]
 //
 // [1] https://natureofcode.com/
 // [2] https://github.com/nannou-org/nannou/blob/master/examples/nature_of_code/chp_01_vectors/1_2_bouncingball_vectors.rs
-
 
 use nannou::prelude::*;
 
@@ -25,8 +24,8 @@ struct Model {
 }
 
 fn model(_app: &App) -> Model {
-    let location = Coordinates {x: 100.0, y: 100.0};
-    let velocity = Coordinates {x: 2.5, y: 5.0};
+    let location = Coordinates { x: 100.0, y: 100.0 };
+    let velocity = Coordinates { x: 2.5, y: 5.0 };
 
     let _window = _app
         .new_window()
@@ -35,14 +34,10 @@ fn model(_app: &App) -> Model {
         .build()
         .unwrap();
 
-    Model {
-        location,
-        velocity,
-    }
+    Model { location, velocity }
 }
 
 fn update(_app: &App, _model: &mut Model, _update: Update) {
-
     _model.location.x = _model.location.x + _model.velocity.x;
     _model.location.y = _model.location.y + _model.velocity.y;
 
@@ -56,7 +51,6 @@ fn update(_app: &App, _model: &mut Model, _update: Update) {
         _model.velocity.y = _model.velocity.y * -1.0;
     }
 }
-
 
 fn view(_app: &App, _model: &Model, frame: Frame) -> Frame {
     let draw = _app.draw();
