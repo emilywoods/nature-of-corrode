@@ -4,7 +4,7 @@
 //
 // With reference to Nannou example code [2]
 //
-// [1] https://natureofcode.com/
+// [1] https://natureofcode.com/book/
 // [2] https://github.com/nannou-org/nannou/blob/master/examples/nature_of_code/chp_01_vectors/1_2_bouncingball_vectors.rs
 
 use nannou::prelude::*;
