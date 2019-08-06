@@ -2,5 +2,6 @@
 Rainbows
 ========
 
-Here is what rainbows will generate::
+Here is a preview of what ``rainbows.rs`` will generate:
 
+.. image:: ../../../assets/rainbow.gif
