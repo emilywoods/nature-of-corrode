@@ -6,3 +6,4 @@ edition = "2019"
 
 [dependencies]
 nannou = "0.9"
+rand = "0.7.0"
